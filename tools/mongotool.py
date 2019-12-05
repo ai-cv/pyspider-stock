@@ -29,8 +29,8 @@ def dump():
 
     os.system('mv dump '+dump_time)
 
-    print dump_time+'data has been dumped!'
-    print dump_time +'IT'+ 'data has been dumped!'
+    print(dump_time+'data has been dumped!')
+    print(dump_time +'IT'+ 'data has been dumped!')
 
 def drop():
     client = MongoClient()
@@ -59,5 +59,5 @@ def drop():
 
     client.drop_database(drop_time+'IT')
 
-    print drop_time+'data has been dropped!'
-    print drop_time+'IT'+'data has been dropped!'
+    print(drop_time+'data has been dropped!')
+    print(drop_time+'IT'+'data has been dropped!')

@@ -34,6 +34,6 @@ def setDailyResult(stockcode,date,section_name=''):
     except UnboundLocalError,e:
         pass
 
-    print date+stockcode+'has been set in daily result!'
+    print(date+stockcode+'has been set in daily result!')
 
 

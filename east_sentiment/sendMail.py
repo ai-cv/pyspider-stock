@@ -54,9 +54,9 @@ def send(date,section_list):
         s.login(_user, _pwd)
         s.sendmail(_user, _to, msg.as_string())
         s.quit()
-        print "Succeed in sending mail!"
+        print("Succeed in sending mail!")
     except smtplib.SMTPException, e:
-        print "Falied,%s" % e
+        print("Falied,%s" % e)
 
 def excel2str(date,section_name=''):
     df = pd.read_excel("data/" + date+section_name + "result.xls",

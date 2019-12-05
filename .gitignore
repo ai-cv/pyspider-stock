@@ -2,3 +2,4 @@
 gitignore
 eastSentiment/*.pyc
 *.pyc
+data
